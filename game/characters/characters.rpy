@@ -14,3 +14,4 @@ define Tanya = Character('Таня', color="#8314c4")
 
 
 define metka = Character('Этого тут быть не должно', color="#cc00ff")
+define history = Character(None, kind=nvl)#Character('Историческая справка', color="#ffe600")

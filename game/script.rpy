@@ -9,11 +9,11 @@ image diary_grand = "images/diary_grand.jpg"
 
 # Игра начинается здесь:
 label start:
-    # call prologue from _call_prologue
-    # call bread from _call_bread
+    call prologue from _call_prologue
+    call bread from _call_bread
     # call metronom from _call_metronom
     # call flask from _call_flask
-    call diary_tani from _call_diary_tani
+    # call diary_tani from _call_diary_tani
     
 
     # e "Hello world"
