@@ -1,5 +1,5 @@
 # объявления персонажей
-define Gleb = Character('Глуб', color="#ff0000")
+define Gleb = Character('Глеб', color="#ff0000")
 
 define teacher = Character('Учительница', color="#ffffff")
 define tour_guide = Character('Экскурсовод', color="#ffffff")
@@ -11,6 +11,12 @@ define boy = Character('Мальчик', color="#2b86ec")
 define Kostya = Character('Костя', color="#2b86ec")
 define soldat = Character('Солдат', color="#2b86ec")
 define Tanya = Character('Таня', color="#8314c4")
+
+
+default olya_name = "Девочка"
+define Olya = Character("[olya_name]", color="#c96cf5")
+
+define Katya = Character('Катя', color="#8314c4")
 
 
 define metka = Character('Этого тут быть не должно', color="#cc00ff")

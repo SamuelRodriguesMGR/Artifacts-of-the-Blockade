@@ -234,5 +234,7 @@ label bread:
     hide text
     window show
 
+    jump chapter_hub
+
     
     
