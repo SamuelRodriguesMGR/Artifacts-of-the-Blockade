@@ -35,14 +35,14 @@ screen chapter_select():
             Jump("confirm_chapter")
         ]
         hotspot (1200, 200, 240, 340) action [
-            SetVariable("selected_chapter", "diary_tani"),
-            Jump("confirm_chapter")
-        ]
-        hotspot (1480, 209, 100, 130) action [
             SetVariable("selected_chapter", "sledge"),
             Jump("confirm_chapter")
         ]
-        hotspot (1585, 200, 240, 340) action [
+        hotspot (1480, 209, 100, 130) action [
+            SetVariable("selected_chapter", "diary_tani"),
+            Jump("confirm_chapter")
+        ]
+        hotspot (1610, 200, 240, 340) action [
             SetVariable("selected_chapter", "toys"),
             Jump("confirm_chapter")
         ]
@@ -71,8 +71,9 @@ label confirm_chapter:
 
 
 label chapter_hub:
+    scene artifacts
 
-    $ uncompleted = sum(1 for chapter in chapters.values() if chapter == 2)
+    $ uncompleted = sum(1 for chapter in chapters.values() if chapter != 0)
 
     if uncompleted >= 5:
 

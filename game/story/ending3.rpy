@@ -3,6 +3,8 @@
 
 label ending3:
 
+    scene three
+
     "Я поставил точку."
 
     "Рука дрожала."
